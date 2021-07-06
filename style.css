@@ -9,6 +9,10 @@
   display: none;
 }
 
+.menu-mobile-ul {
+  display: none;
+}
+
 .main__text {
   margin-top: 15px;
   padding: 10px;
@@ -52,6 +56,10 @@
 }
 
 @media screen and (min-width: 1100px) {
+  .menu-mobile {
+    display: none;
+  }
+
   .menu {
     display: inline-block;
     width: 100%;
