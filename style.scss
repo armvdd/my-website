@@ -5,6 +5,9 @@ $h1Font-color: #31AEC0;
 $mePartBg-color: #31AEC0;
 $mePartFont-color: #ffffff;
 $h2Font-color: #F8D8E8;
+$fastKontaktBg-color: #E74B4A;
+$fastKontaktFont-color: #F8D8E8;
+$mobileMenuAfterColor: #31AEC0;
 
 // mobile frst
 
@@ -19,8 +22,68 @@ $h2Font-color: #F8D8E8;
     display: none;
 }
 
+.mobile-version{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 10px 10px;
+}
+
+.menu-mobile{
+    order: 1;
+    width: 100%;
+}
+
 .menu-mobile-ul{
     display: none;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-mobile-list{
+    list-style-type: none;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.menu-mobile-home::before{
+    content: "";
+    display: block;
+    background-color: $mobileMenuAfterColor;
+    width: 100%;
+    height: 1px;
+    margin: 5px auto;
+}
+
+.menu-mobile-list::after{
+    content: "";
+    display: block;
+    background-color: $mobileMenuAfterColor;
+    width: 100%;
+    height: 1px;
+    margin: 5px auto;
+}
+
+.menu-mobile-list__a{
+    text-decoration: none;
+    color: #E74B4A;
+}
+
+.fastKontakt{
+    order: 2;
+    background-color: $fastKontaktBg-color;
+    position: absolute;
+    right: 25px;
+}
+
+.fastKontakt__a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: $fastKontaktBg-color;
+    color: $fastKontaktFont-color;
+    font-weight: 600;
 }
 
 .main__text{
@@ -69,6 +132,10 @@ $h2Font-color: #F8D8E8;
         display: none;
     }
 
+    .fastKontakt{
+        display: none;
+    }
+
     .menu{
         display: inline-block;
         width: 100%;
@@ -85,6 +152,12 @@ $h2Font-color: #F8D8E8;
         text-decoration: none;
         color: $menuFont-color;
         font-weight: 600;
+    }
+
+    .menu-kontakt__a{
+        padding: 10px;
+        background-color: $fastKontaktBg-color;
+        color: $fastKontaktFont-color;
     }
     
     .main{
