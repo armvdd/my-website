@@ -145,9 +145,12 @@ $mobileMenuAfterColor: #31AEC0;
     
     .menu-list{
         display: inline-block;
+        position: relative;
         margin: 0 15px;
     }
     
+
+
     .menu-list__a{
         text-decoration: none;
         color: $menuFont-color;
@@ -160,6 +163,28 @@ $mobileMenuAfterColor: #31AEC0;
         color: $fastKontaktFont-color;
     }
     
+    // .menu-home__a::before, .menu-sluzby__a::before, .menu-projekty__a::before{
+    //     content: " ";
+    //     display: inline-block;
+    //     background-color: $mobileMenuAfterColor;
+    //     width: 1.5px;
+    //     height: 15px;
+    //     position: absolute;
+    //     top: 2.5px;
+    //     left: -3px;
+    // }
+
+    // .menu-home__a::after, .menu-sluzby__a::after, .menu-projekty__a::after{
+    //     content: " ";
+    //     display: inline-block;
+    //     background-color: $mobileMenuAfterColor;
+    //     width: 1.5px;
+    //     height: 15px;
+    //     position: absolute;
+    //     top: 2.5px;
+    //     right: -3px;
+    // }
+
     .main{
         margin: 150px 15px;
         display: grid;
@@ -198,9 +223,10 @@ $mobileMenuAfterColor: #31AEC0;
     
     .main__social__icon{
         margin-right: 15px;
+        transition: width 0.6s;
     }
     
     .main__social__icon:hover{
-        width: 52px;
+        width: 54px;
     }
 }
