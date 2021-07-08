@@ -5,6 +5,7 @@ $cardBorder-color: rgb(179, 179, 179);
 .cards{
     margin: 100px 15px;
 }
+
 .cards__card{
     border-radius: 25px;
     border: 1px solid $cardBorder-color;
@@ -33,4 +34,16 @@ $cardBorder-color: rgb(179, 179, 179);
 
 .card-list{
     margin-bottom: 5px;
+}
+
+// 600px +
+
+@media screen and (min-width: 600px){
+    .cards{
+        margin-top: 150px;
+    }
+
+    .cards__icon{
+        left: 42%;
+    }
 }

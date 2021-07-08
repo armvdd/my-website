@@ -30,4 +30,14 @@
 
 .card-list {
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    margin-top: 150px;
+  }
+
+  .cards__icon {
+    left: 42%;
+  }
 }/*# sourceMappingURL=sluzby.css.map */
