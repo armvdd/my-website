@@ -165,6 +165,24 @@ $mobileMenuAfterColor: #31AEC0;
         font-weight: 600;
     }
 
+    .menu-home__a::before, .menu-sluzby__a::before, .menu-projekty__a::before{
+        content: " ";
+        display: inline-block;
+        background-color: $menuFont-color;
+        width: 0%;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    @keyframes menuHover {
+        100%{width: 98%}
+    }
+
+    .menu-home__a:hover::before, .menu-sluzby__a:hover::before, .menu-projekty__a:hover::before{
+        animation: menuHover 1s forwards;
+    }
+
     .menu-kontakt__a{
         padding: 10px;
         background-color: $fastKontaktBg-color;
