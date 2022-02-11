@@ -2,48 +2,48 @@ $cardBorder-color: rgb(179, 179, 179);
 
 //mobile frst
 
-.cards{
-    margin: 100px 15px;
+.cards {
+  margin: 100px 15px;
 }
 
-.cards__card{
-    border-radius: 25px;
-    border: 1px solid $cardBorder-color;
-    max-width: 650px;
-    margin: 25px auto;
-    padding: 60px 15px 25px 30px;
-    position: relative;
+.cards__card {
+  border-radius: 25px;
+  border: 1px solid $cardBorder-color;
+  max-width: 650px;
+  margin: 25px auto;
+  padding: 60px 15px 25px 30px;
+  position: relative;
 }
 
-.cards__card2{
-    margin-top:80px;
+.cards__card2 {
+  margin-top: 80px;
 }
 
-.cards__icon{
-    width: 85px;
-    position: absolute;
-    border-radius: 50%;
-    top: -45px;
-    left: 36%;
-    padding: 3px;
+.cards__icon {
+  width: 85px;
+  position: absolute;
+  border-radius: 50%;
+  top: -45px;
+
+  //padding: 3px;
 }
 
-.code-icon{
-    border: 1px solid $cardBorder-color;
+.code-icon {
+  border: 1px solid $cardBorder-color;
 }
 
-.card-list{
-    margin-bottom: 5px;
+.card-list {
+  margin-bottom: 5px;
 }
 
 // 600px +
 
-@media screen and (min-width: 600px){
-    .cards{
-        margin-top: 150px;
-    }
+@media screen and (min-width: 600px) {
+  .cards {
+    margin-top: 150px;
+  }
 
-    .cards__icon{
-        left: 42%;
-    }
+  .cards__icon {
+    margin: 0 auto;
+  }
 }
