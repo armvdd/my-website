@@ -169,6 +169,16 @@
       width: 98%;
     }
   }
+  @-webkit-keyframes kontaktHover {
+    100% {
+      width: 160px;
+    }
+  }
+  @keyframes kontaktHover {
+    100% {
+      width: 160px;
+    }
+  }
   .menu-home__a:hover::before, .menu-sluzby__a:hover::before, .menu-projekty__a:hover::before {
     -webkit-animation: menuHover 1s forwards;
             animation: menuHover 1s forwards;
@@ -178,6 +188,11 @@
     padding: 10px;
     background-color: #E74B4A;
     color: #F8D8E8;
+    transition: 1s;
+  }
+
+  .menu-kontakt__a:hover {
+    padding: 12px;
   }
 
   .main {

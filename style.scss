@@ -179,6 +179,10 @@ $mobileMenuAfterColor: #31AEC0;
         100%{width: 98%}
     }
 
+    @keyframes kontaktHover {
+        100%{width: 160px}
+    }
+
     .menu-home__a:hover::before, .menu-sluzby__a:hover::before, .menu-projekty__a:hover::before{
         animation: menuHover 1s forwards;
     }
@@ -187,6 +191,11 @@ $mobileMenuAfterColor: #31AEC0;
         padding: 10px;
         background-color: $fastKontaktBg-color;
         color: $fastKontaktFont-color;
+        transition: 1s;
+    }
+
+    .menu-kontakt__a:hover{
+        padding: 12px;
     }
     
     // .menu-home__a::before, .menu-sluzby__a::before, .menu-projekty__a::before{
