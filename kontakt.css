@@ -1,0 +1,24 @@
+.kontakty-container {
+  margin-top: 30vh;
+  text-align: center;
+}
+
+.kontakt__a {
+  text-decoration: none;
+  color: #31AEC0;
+  font-weight: bold;
+}
+
+.kontakt__a:hover {
+  color: #E74B4A;
+}
+
+.github-p {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .kontakty-container {
+    margin-top: 50vh;
+  }
+}/*# sourceMappingURL=kontakt.css.map */

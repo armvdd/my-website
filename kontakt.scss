@@ -1,0 +1,29 @@
+$fontColor: #31AEC0;
+$fontColor-hover: #E74B4A;
+
+//mobile frst
+
+.kontakty-container {
+  margin-top: 30vh;
+  text-align: center;
+}
+
+.kontakt__a {
+  text-decoration: none;
+  color: $fontColor;
+  font-weight: bold;
+}
+
+.kontakt__a:hover{
+    color: $fontColor-hover;
+}
+
+.github-p {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 1200px){
+    .kontakty-container {
+        margin-top: 50vh;
+      }
+}
