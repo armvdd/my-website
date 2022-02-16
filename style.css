@@ -1,12 +1,13 @@
 * {
-  background-color: #F7F7F0;
+  background-color: #f7f7f0;
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   color: #494949;
 }
 
-.menu, .logo {
+.menu,
+.logo {
   display: none;
 }
 
@@ -38,7 +39,7 @@
 .menu-mobile-home::before {
   content: "";
   display: block;
-  background-color: #31AEC0;
+  background-color: #31aec0;
   width: 100%;
   height: 1px;
   margin: 5px auto;
@@ -47,7 +48,7 @@
 .menu-mobile-list::after {
   content: "";
   display: block;
-  background-color: #31AEC0;
+  background-color: #31aec0;
   width: 100%;
   height: 1px;
   margin: 5px auto;
@@ -55,12 +56,12 @@
 
 .menu-mobile-list__a {
   text-decoration: none;
-  color: #E74B4A;
+  color: #e74b4a;
 }
 
 .fastKontakt {
   order: 2;
-  background-color: #E74B4A;
+  background-color: #e74b4a;
   position: absolute;
   right: 25px;
 }
@@ -69,8 +70,8 @@
   display: block;
   text-decoration: none;
   padding: 10px;
-  background-color: #E74B4A;
-  color: #F8D8E8;
+  background-color: #e74b4a;
+  color: #f8d8e8;
   font-weight: 600;
 }
 
@@ -84,7 +85,7 @@
 }
 
 .main__text__h1 {
-  color: #31AEC0;
+  color: #31aec0;
   margin-bottom: 15px;
 }
 
@@ -94,21 +95,21 @@
 
 .main__mePart {
   min-height: 150px;
-  background-color: #31AEC0;
+  background-color: #31aec0;
   text-align: center;
   padding-top: 50px;
   margin-top: 25px;
 }
 
 .main-header2 {
-  background-color: #31AEC0;
-  color: #F8D8E8;
+  background-color: #31aec0;
+  color: #f8d8e8;
   font-size: 20px;
   margin-bottom: 15px;
 }
 
 .main__mePart__p {
-  background-color: #31AEC0;
+  background-color: #31aec0;
   color: #ffffff;
   font-size: 15px;
 }
@@ -153,14 +154,16 @@
 
   .menu-list__a {
     text-decoration: none;
-    color: #E74B4A;
+    color: #e74b4a;
     font-weight: 600;
   }
 
-  .menu-home__a::before, .menu-sluzby__a::before, .menu-projekty__a::before {
+  .menu-home__a::before,
+.menu-sluzby__a::before,
+.menu-projekty__a::before {
     content: " ";
     display: inline-block;
-    background-color: #E74B4A;
+    background-color: #e74b4a;
     width: 0%;
     height: 1px;
     position: absolute;
@@ -188,15 +191,17 @@
       width: 160px;
     }
   }
-  .menu-home__a:hover::before, .menu-sluzby__a:hover::before, .menu-projekty__a:hover::before {
+  .menu-home__a:hover::before,
+.menu-sluzby__a:hover::before,
+.menu-projekty__a:hover::before {
     -webkit-animation: menuHover 1s forwards;
             animation: menuHover 1s forwards;
   }
 
   .menu-kontakt__a {
     padding: 10px;
-    background-color: #E74B4A;
-    color: #F8D8E8;
+    background-color: #e74b4a;
+    color: #f8d8e8;
     transition: 1s;
   }
 
@@ -208,7 +213,7 @@
     margin: 150px 15px;
     display: grid;
     grid-template-columns: 450px 1fr;
-    grid-template-rows: 280px 50px;
+    grid-template-rows: 230px 50px;
     gap: 0;
   }
 
@@ -224,8 +229,12 @@
     grid-column: 2;
     grid-row: 1;
     max-width: 475px;
-    margin: 30px 75px;
+    margin: 0px 75px;
     padding-left: 65px;
+  }
+
+  .main__text__p2 {
+    margin-bottom: 10px;
   }
 
   .main__mePart {
