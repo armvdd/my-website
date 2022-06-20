@@ -5,7 +5,7 @@
 
 .projekty__h3 {
   margin-bottom: 15px;
-  color: #31AEC0;
+  color: #31aec0;
 }
 
 .projekty__ul__li1 {
@@ -13,7 +13,12 @@
 }
 
 .projekty__ul__li-p {
-  color: #E74B4A;
+  color: #e74b4a;
+  margin-top: 5px;
+}
+
+.projekty__ul__li-a:hover {
+  color: #e74b4a;
 }
 
 @media screen and (min-width: 600px) {
