@@ -125,6 +125,10 @@
   margin-right: 20px;
 }
 
+.linkedin-icon {
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
   .main {
     margin-top: 100px;

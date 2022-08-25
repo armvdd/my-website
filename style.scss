@@ -138,6 +138,10 @@ $mobileMenuAfterColor: #31aec0;
   margin-right: 20px;
 }
 
+.linkedin-icon {
+  display: none;
+}
+
 // 600px +
 
 @media screen and (min-width: 600px) {
@@ -261,8 +265,8 @@ $mobileMenuAfterColor: #31aec0;
     padding-left: 65px;
   }
 
-  .main__text__p2{
-      margin-bottom: 10px;
+  .main__text__p2 {
+    margin-bottom: 10px;
   }
 
   .main__mePart {
