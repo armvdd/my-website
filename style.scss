@@ -1,5 +1,5 @@
 $mainFont: "Montserrat", sans-serif;
-$fontColor: #494949;
+$fontColor: #676767;
 $mainBg-color: #f7f7f0;
 $menuFont-color: #e74b4a;
 $h1Font-color: #31aec0;
@@ -96,14 +96,17 @@ $mobileMenuAfterColor: #31aec0;
 .main__text {
   margin-top: 15px;
   padding: 10px;
+  line-height: 1.35em;
 }
+
 .main__text__h1 {
   color: $h1Font-color;
   margin-bottom: 15px;
 }
 
-.main__text__p2 {
-  margin-bottom: 5px;
+.main__text__p2,
+.main__text__p3 {
+  margin-bottom: 10px;
 }
 
 .main__mePart {
@@ -245,7 +248,7 @@ $mobileMenuAfterColor: #31aec0;
     margin: 150px 15px;
     display: grid;
     grid-template-columns: 450px 1fr;
-    grid-template-rows: 230px 50px;
+    grid-template-rows: 275px 50px;
     gap: 0;
   }
 
