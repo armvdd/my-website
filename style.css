@@ -6,8 +6,7 @@
   color: #676767;
 }
 
-.menu,
-.logo {
+.menu {
   display: none;
 }
 
@@ -25,7 +24,7 @@
 
 .menu-mobile-ul {
   display: none;
-  margin-top: 25px;
+  margin-top: 45px;
   width: 100%;
   text-align: center;
 }
@@ -75,8 +74,8 @@
   font-weight: 600;
 }
 
-.main {
-  padding-top: 45px;
+.header {
+  margin-bottom: 40px;
 }
 
 .main__text {
@@ -95,48 +94,50 @@
   margin-bottom: 10px;
 }
 
-.main__mePart {
-  min-height: 150px;
-  background-color: #31aec0;
-  text-align: center;
-  padding-top: 50px;
-  margin-top: 25px;
+.main__social,
+.main__social__icon {
+  display: none;
 }
 
-.main-header2 {
-  background-color: #31aec0;
-  color: #f8d8e8;
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.main__mePart__p {
-  background-color: #31aec0;
-  color: #ffffff;
-  font-size: 15px;
-}
-
-.main__social {
+.main__social--mobile {
   padding-top: 10px;
   text-align: center;
+  margin-top: 25px;
   margin-bottom: 50px;
 }
 
-.main__social__icon {
+.main__social__icon--mobile {
   width: 50px;
   margin-right: 20px;
 }
 
-.linkedin-icon {
+.linkedin-icon--mobile {
   display: none;
+}
+
+.leftPart {
+  margin-top: 25px;
+}
+
+.logo {
+  width: 100%;
+  background-color: #31aec0;
 }
 
 @media screen and (min-width: 600px) {
   .main {
     margin-top: 100px;
   }
+  .main__logo {
+    background-color: #31aec0;
+  }
+  .logo {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+  }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1024px) {
   .menu-mobile {
     display: none;
   }
@@ -205,26 +206,38 @@
   .menu-kontakt__a:hover {
     padding: 12px;
   }
-  .main {
-    margin: 150px 15px;
-    display: grid;
-    grid-template-columns: 450px 1fr;
-    grid-template-rows: 275px 50px;
-    gap: 0;
+  .websiteParts {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    max-height: 100vh;
+  }
+  .header {
+    margin: 0;
+  }
+  .leftPart {
+    order: 1;
+    background-color: #31aec0;
+    width: 50%;
+    margin: 0;
+  }
+  .rightPart {
+    order: 2;
+    padding-left: 65px;
+  }
+  .main__logo,
+.logo {
+    background-color: #31aec0;
   }
   .logo {
     display: block;
+    margin: 30vh auto;
     width: 350px;
-    grid-column: 1;
-    grid-row: 1;
-    padding-left: 150px;
   }
   .main__text {
-    grid-column: 2;
-    grid-row: 1;
     max-width: 475px;
-    margin: 0px 75px;
-    padding-left: 65px;
+    margin-top: 30vh;
+    padding-right: 15vh;
   }
   .main__text__p2 {
     margin-bottom: 10px;
@@ -232,18 +245,29 @@
   .main__mePart {
     display: none;
   }
+  .main__social--mobile,
+.main__social__icon--mobile {
+    display: none;
+  }
   .main__social {
-    grid-column: 2;
-    grid-row: 2;
-    margin-left: 95px;
-    padding-left: 65px;
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-right: 15vh;
     text-align: left;
   }
   .main__social__icon {
+    display: inline-block;
+    width: 50px;
+    margin-right: 20px;
     margin-right: 15px;
     transition: width 0.6s;
   }
   .main__social__icon:hover {
     width: 54px;
+  }
+  .linkedin-icon {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
